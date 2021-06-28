@@ -8,6 +8,7 @@ export default new Vuex.Store({
   state: {
     user:[],
     token:'',
+    messagerecord:[],
   },
   mutations: {
     pushuser(state,payload){
@@ -24,7 +25,9 @@ export default new Vuex.Store({
       state.token=''
       Cookie.remove('token')
     },
-    
+    pushMessage(state,payload){
+      state.messagerecord.push(payload)
+    }
   },
   actions: {
     getuser(context){

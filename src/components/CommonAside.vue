@@ -31,7 +31,7 @@
           <span >其它</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="/other/one" ><i class="el-icon-setting"></i>选项1</el-menu-item>
+          <el-menu-item index="/other/one" ><i class="el-icon-setting"></i>我的邮箱</el-menu-item>
           <el-menu-item index="/other/two" ><i class="el-icon-setting"></i>选项2</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
